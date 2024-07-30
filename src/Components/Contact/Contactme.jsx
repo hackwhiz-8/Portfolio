@@ -43,9 +43,9 @@ const ContactForm = () => {
     }, [reset, isSubmitSuccessful])
     return (
 
-        <div className="mt-10 ">
+        <div className="mt-10 ml-14 ">
             <form
-                className="flex flex-col gap-5 p-5 w-[80%] border-2  border-gray-800 text-gray-500 rounded-lg "
+                className="flex flex-col gap-5 p-5 w-[80%] border-2  border-gray-800 text-gray-500 rounded-2xl "
                 onSubmit={handleSubmit(submitContactForm)}
             >
 

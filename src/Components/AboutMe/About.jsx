@@ -21,13 +21,13 @@ const About = () => {
     return (
       
            
-            <div className='text-gray-500  flex flex-col gap-10 '>
-                <div className=' hover:text-gray-400  bg-transparent bg-opacity-50 backdrop-blur-lg p-5 border-2 rounded-2xl border-gray-800 text-2xl'>
+            <div className='text-gray-500  '>
+                <div className=' hover:text-gray-400 mb-10  bg-transparent bg-opacity-50 backdrop-blur-lg p-5 border-2 rounded-2xl border-gray-800 text-2xl'>
                     <p>Web Developer with 3 years of experience,
                         focused on creating functional and user-centered digital products with visually stunning designs.</p>
                     {/* <SocialHandle /> */}
                 </div>
-                <div className='hover:text-gray-400  bg-transparent bg-opacity-50 backdrop-blur-lg p-5 px-5 border-2 rounded-2xl border-gray-800 text-[18px] '>
+                <div className='hover:text-gray-400  mb-10 bg-transparent bg-opacity-50 backdrop-blur-lg p-5 px-5 border-2 rounded-2xl border-gray-800 text-[18px] '>
                     <p>Growing up in Rajasthan,India, my home was a fusion of creativity and analytical thinking, influenced by my father's career as a photographer and my mother's profession as a lawyer. This unique blend has deeply shaped my perspective.
                         My fascination with technology began at age four, sparked by our trusty beige computer. Although I pursued a degree in Computer Science, my true passion lies in the transformative power of great
                         design craft, mainly inspired by the design craftsmanship behind Apple products.

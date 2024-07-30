@@ -15,12 +15,12 @@ const About2 = (props) => {
     return (
 
 
-        <div className='text-gray-500 flex flex-col gap-5 '>
-            <div className='  bg-transparent bg-opacity-50 backdrop-blur-lg h-[500px] overflow-hidden shadow-lg border-2 rounded-2xl border-gray-800 text-2xl'>
+        <div className='text-gray-500   '>
+            <div className='mb-10  bg-transparent bg-opacity-50 backdrop-blur-lg h-[500px] overflow-hidden shadow-lg border-2 rounded-2xl border-gray-800 text-2xl'>
                 <img src={`${dark === true ? image2 : image}`} alt="" />
             </div>
 
-            <div className='bg-transparent bg-opacity-50 backdrop-blur-lg overflow-hidden shadow-lg border-2 rounded-2xl border-gray-800 p-5 '>
+            <div className='bg-transparent bg-opacity-50 backdrop-blur-lg mb-10 overflow-hidden shadow-lg border-2 rounded-2xl border-gray-800 p-5 '>
                 <h1 className='text-2xl font-bold font-san1'>Awards </h1>
                 <div className='flex items-center gap-5'>
                     <div className='bg-blue-500 w-[7px] h-[40px] rounded-2xl'></div>

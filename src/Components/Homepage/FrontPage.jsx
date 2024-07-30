@@ -8,8 +8,8 @@ import "animate.css/animate.compat.css"
 const FrontPage = () => {
   return (
 
-    <div className='relative h-[700px] flex flex-col justify-center nb-10 items-center'>
-      <div className='text-white font-exco-sans flex flex-col justify-center items-center text-[40px] lg:text-[110px] h-[90%] transition-all ease-in-out  hover:text-black'>
+    <div className='relative h-[700px] flex flex-col justify-center mb-10 items-center w-[100%]'>
+      <div className='text-white font-exco-sans flex flex-col justify-center items-center text-[40px] lg:text-[110px] h-[90%] duration-500 transition-all ease-in-out  hover:text-black'>
 
 
         <h1 className='bg-blue-800'>
@@ -35,16 +35,16 @@ const FrontPage = () => {
 
       </div>
 
-      <div className='text-gray-700 flex justify-center items-center w-full mx-auto   '>
+      <div className='group text-gray-700 flex justify-evenly items-center w-full mx-auto transition-all ease-in-out duration-300   '>
 
-        <div className='flex items-center px-5 ml-10 gap-2 hover:text-gray-500'>
-          <h1 className='text-[18px] font-exco-sans hover:text-gray-500'>INDIA</h1>  <GiIndianPalace className='text-[18px]' />
+        <div className='flex items-center px-5 ml-2 gap-2 hover:text-gray-500'>
+          <h1 className='lg:text-[18px] text-[15px] font-exco-sans group-hover:text-gray-500'>INDIA</h1>  <GiIndianPalace className='text-[18px]' />
         </div>
 
-        <div className='border-b-2 w-[80%] ml-10 border-gray-800 '></div>
+        <div className='border-b-2 w-[100%]  border-gray-800 group-hover:border-gray-500'></div>
 
-        <div className='flex items-center px-5 ml-5 '>
-          <h1 className='text-[18px] font-exco-sans hover:text-gray-500'>FREELANCE AVAILABILITY</h1>
+        <div className='flex items-center  ml-8 '>
+          <h1 className='lg:text-[18px] text-[15px] font-exco-sans group-hover:text-gray-500'>FREELANCE AVAILABILITY</h1>
         </div>
 
       </div>

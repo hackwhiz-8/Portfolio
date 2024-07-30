@@ -5,9 +5,13 @@ import About3 from './About3'
 
 const AboutMain = (props) => {
     return (
-        <div>
+        <div className='mb-10'>
             <h1 className='text-gray-800  lg:text-[100px] border-b  text-center mb-10 border-gray-800'>About Me </h1>
-            <div className='grid lg:grid-cols-3 gap-5 mx-10'>
+            <div className='grid lg:grid-cols-3 gap-5 w-[90%]  mx-5 
+            lg:mx-auto 
+            md:mx-auto 
+            lg:w-[95%]
+            md:w-[95%]'>
 
                 
                     <About />

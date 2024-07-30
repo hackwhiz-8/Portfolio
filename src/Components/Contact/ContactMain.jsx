@@ -6,7 +6,7 @@ const ContactMain = () => {
     return (
         <div className='mt-10 mb-20 '>
             <h1 className='text-gray-800  lg:text-[100px] border-b  text-center mb-10 border-gray-800'>Contact Me </h1>
-            <div className='grid lg:grid-cols-2'>
+            <div className='grid lg:grid-cols-2 gap-5 mx-5 w-auto   '>
                 <ContactImg />
                 <ContactForm />
             </div>

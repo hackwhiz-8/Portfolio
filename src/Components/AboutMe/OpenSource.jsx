@@ -2,7 +2,7 @@ import React from 'react'
 
 const OpenSource = () => {
     return (
-        <div className='  bg-transparent bg-opacity-50 backdrop-blur-lg p-5 border-2 rounded-2xl border-gray-800 '>
+        <div className='  bg-transparent bg-opacity-50 backdrop-blur-lg p-5 border-2 rounded-2xl border-gray-800 mb-5 '>
             <h1 className='text-2xl font-bold mb-4'>Open Source </h1>
             <div className='flex items-center gap-5'>
                 <div className='bg-red-500 w-[5px] h-[40px] rounded-2xl'></div>

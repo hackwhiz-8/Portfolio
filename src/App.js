@@ -12,8 +12,8 @@ function App() {
   }
   return (
 
-    <div className={`${darkMode === true ? 'bg-white' : 'bg-black'} `}>
-      <div className='text-gray-800 absolute  z-10 right-[330px] top-5 border-2 border-gray-800 rounded-md p-[5px]' onClick={handleDarkMode}> {darkMode === true ? <GiUbisoftSun /> : <FaMoon />} </div>
+    <div className={`${darkMode === true ? 'bg-white' : 'bg-black'}  w-[100%]  `}>
+      <div className='text-gray-800 absolute  z-10 lg:right-[330px] lg:top-5  right-[5px] top-6 border-2 border-gray-800 rounded-md p-[5px]' onClick={handleDarkMode}> {darkMode === true ? <GiUbisoftSun /> : <FaMoon />} </div>
       <Navbar />
       <Hompage  darkMode={darkMode} />
 

@@ -3,8 +3,8 @@ import React from 'react'
 const Images = (props) => {
     const data = props.value;
     return (
-        <div className=' flex flex-col border-2 border-gray-800 rounded-2xl gap-5 p-5 transition-all ease-in-out ' >
-            <h1 className='text-2xl font-bold font-san1'>{props.head}</h1>
+        <div className='  border-2 border-gray-800 mb-10 rounded-2xl  p-5 transition-all ease-in-out ' >
+            <h1 className='text-2xl font-bold font-san1 mb-5'>{props.head}</h1>
             <div className='flex flex-wrap gap-2 '>
                 {
                     data.map((ele, index) => {
