@@ -11,7 +11,7 @@ const Hompage = (props) => {
   return (
     <div>
       
-      <FrontPage/>
+      <FrontPage darkMode={dark}/>
       <ProjectMain/>
       <AboutMain darkMode={dark}/>
       <ContactMain/>

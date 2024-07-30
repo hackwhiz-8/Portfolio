@@ -5,7 +5,8 @@ import "animate.css/animate.compat.css"
 // import image from '../../assets/dynamic-virtual-office-setup-with-laptop-and-web-applications-2.png'
 
 
-const FrontPage = () => {
+const FrontPage = (props) => {
+    const darkMode = props.darkMode;
   return (
 
     <div className='relative h-[700px] flex flex-col justify-center mb-10 items-center w-[100%]'>
@@ -13,19 +14,19 @@ const FrontPage = () => {
 
 
         <h1 className='bg-blue-800'>
-          <span className='hover:text-gray-500 text-gray-800 bg-black '>D</span>
-          <span className='hover:text-gray-500 text-gray-800 bg-black '>I</span>
-          <span className='hover:text-gray-500 text-gray-800 bg-black '>V </span>
-          <span className='hover:text-gray-500 text-gray-800 bg-black '>D</span>
-          <span className='hover:text-gray-500 text-gray-800 bg-black '>E</span>
-          <span className='hover:text-gray-500 text-gray-800 bg-black '>V</span>
-          <span className='hover:text-gray-500 text-gray-800 bg-black '>E</span>
-          <span className='hover:text-gray-500 text-gray-800 bg-black '>L</span>
-          <span className='hover:text-gray-500 text-gray-800 bg-black '>O</span>
-          <span className='hover:text-gray-500 text-gray-800 bg-black '>P</span>
-          <span className='hover:text-gray-500 text-gray-800 bg-black '>E</span>
-          <span className='hover:text-gray-500 text-gray-800 bg-black '>R</span>
-          <span className='hover:text-gray-500 text-gray-800 bg-black '>S</span>
+          <span className={`hover:text-gray-500 text-gray-800 bg-${darkMode===true?"white":"black"}`} >D</span>
+          <span className={`hover:text-gray-500 text-gray-800 bg-${darkMode===true?"white":"black"}`}>I</span>
+          <span className={`hover:text-gray-500 text-gray-800 bg-${darkMode===true?"white":"black"}`}>V </span>
+          <span className={`hover:text-gray-500 text-gray-800 bg-${darkMode===true?"white":"black"}`}>D</span>
+          <span className={`hover:text-gray-500 text-gray-800 bg-${darkMode===true?"white":"black"}`}>E</span>
+          <span className={`hover:text-gray-500 text-gray-800 bg-${darkMode===true?"white":"black"}`}>V</span>
+          <span className={`hover:text-gray-500 text-gray-800 bg-${darkMode===true?"white":"black"}`}>E</span>
+          <span className={`hover:text-gray-500 text-gray-800 bg-${darkMode===true?"white":"black"}`}>L</span>
+          <span className={`hover:text-gray-500 text-gray-800 bg-${darkMode===true?"white":"black"}`}>O</span>
+          <span className={`hover:text-gray-500 text-gray-800 bg-${darkMode===true?"white":"black"}`}>P</span>
+          <span className={`hover:text-gray-500 text-gray-800 bg-${darkMode===true?"white":"black"}`}>E</span>
+          <span className={`hover:text-gray-500 text-gray-800 bg-${darkMode===true?"white":"black"}`}>R</span>
+          <span className={`hover:text-gray-500 text-gray-800 bg-${darkMode===true?"white":"black"}`}>S</span>
         </h1>
 
 

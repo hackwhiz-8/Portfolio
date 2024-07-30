@@ -9,7 +9,7 @@ const OpenSource = () => {
                 <div>
                     <h1 className='text-[18px] '>CircuitVerse</h1>
                     <p className='text-gray-400'>Fix: update project name in navbar #333 <br />
-                        <a href="3 https://github.com/CircuitVerse/cv-frontend-vue/pull/333">#333 https://github.com/CircuitVerse/cv-frontend-vue/pull/333</a>
+                        <a href="https://github.com/CircuitVerse/cv-frontend-vue/pull/333">#333 https://github.com/CircuitVerse/cv-frontend-vue/pull/333</a>
                     </p>
                 </div>
             </div>

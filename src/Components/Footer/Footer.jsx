@@ -13,8 +13,8 @@ const Footer = () => {
 
     }
     return (
-       <div className='bg-slate-900'>
-         <div className='flex flex-col justify-center items-center border-t border-gray-800 pt-10 text-gray-500 bg-slate-900'>
+       <div className='bg-black'>
+         <div className='flex flex-col justify-center items-center border-t border-gray-800 pt-10 text-gray-500'>
             <div className='text-gray-500'>
                 <p className='p-2 text-[18px] border-red-500 border-b'>I Hope You Liked this,If You Like This Hit the like button  </p>
                 
