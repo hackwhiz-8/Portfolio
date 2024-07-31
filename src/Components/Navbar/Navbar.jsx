@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className='relative mt-2'>
 
 
-        <div className='absolute lg:opacity-0 opacity-100 md:right-[10px] md:top-[-16px]  right-[10px] top-[-5px]  z-10    text-[40px]'>
+        <div className='absolute lg:opacity-0 opacity-100 md:right-[10px] md:top-[-16px]  right-[30px] top-[-5px]  z-10    text-[40px]'>
 
           <button onClick={handleToggle} className='cursor-pointer'><IoReorderThreeOutline /></button>
           {
