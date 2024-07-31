@@ -31,11 +31,7 @@ const Project1Img =[
         "url": login,
         "color":"bg-white"
       },
-    //   {
-    //     "title": "twitter",
-    //     "url": signup,
-    //     "color":"bg-white"
-    //   },
+
       {
         "title": "twitter",
         "url": learnMore,

@@ -9,14 +9,8 @@ const About = () => {
     return (
 
 
-        <div className='text-gray-500  mx-7
-                w-[350px]
-                lg:mx-auto 
-                md:mx-auto 
-                sm:mx-auto 
-                lg:w-[95%]
-                sm:w-[95%]
-                md:w-[95%]'>
+        <div className='text-gray-500  
+               '>
             <div className=' hover:text-gray-400 mb-10  bg-transparent bg-opacity-50 backdrop-blur-lg p-5 border-2 rounded-2xl border-gray-800 text-2xl 
                '>
                 <p>Web Developer with 3 years of experience,

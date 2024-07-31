@@ -15,13 +15,8 @@ const About2 = (props) => {
     return (
 
 
-        <div className='text-gray-500  w-[350px] mx-7
-                lg:mx-auto 
-                md:mx-auto 
-                sm:mx-auto 
-                lg:w-[95%]
-                sm:w-[95%]
-                md:w-[95%]  '>
+        <div className='text-gray-500  
+                 '>
             <div className='mb-10  bg-transparent bg-opacity-50 backdrop-blur-lg  overflow-hidden shadow-lg border-2 rounded-2xl border-gray-800 text-2xl'>
                 <img src={`${dark === true ? image2 : image}`} alt="" />
             </div>

@@ -1,5 +1,8 @@
 import React from 'react'
 import Project1 from './Project1'
+import Project1Img from '../../assets/Project1'
+import Project2Img from '../../assets/Project2'
+
 
 const ProjectMain = () => {
   return (
@@ -8,9 +11,9 @@ const ProjectMain = () => {
       <div className='grid lg:grid-cols-3 gap-5 mx-10 w-auto'>
 
 
-        <Project1 />
-        <Project1 />
-        <Project1 />
+        <Project1 text={"studyNotion"} data={Project1Img} />
+        <Project1 text={"FinexUs India"} data={Project2Img} />
+        <Project1 text={"newsWave"} data={Project2Img} />
 
 
       </div>

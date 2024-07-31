@@ -7,19 +7,19 @@ const AboutMain = (props) => {
     return (
         <div className='mb-10'>
             <h1 className='text-gray-800  lg:text-[120px] text-[50px] border-b  text-center mb-10 border-gray-800'>About Me </h1>
-            <div className='grid lg:grid-cols-3 gap-5 w-[100%] mx-10 
+            <div className='grid lg:grid-cols-3 gap-5 w-[480px] px-5 
             lg:mx-auto 
             md:mx-auto 
             sm:mx-auto 
-            lg:w-[95%]
-            sm:w-[95%]
-            md:w-[95%]'>
+            lg:w-[100%]
+            sm:w-[100%]
+            md:w-[100%]'>
 
-                
-                    <About />
-                    <About2 darkMode={props.darkMode} />
-                    <About3 />
-                
+ 
+                <About />
+                <About2 darkMode={props.darkMode} />
+                <About3 />
+
 
             </div>
         </div>
