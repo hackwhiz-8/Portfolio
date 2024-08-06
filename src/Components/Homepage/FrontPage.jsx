@@ -9,24 +9,24 @@ const FrontPage = (props) => {
   const darkMode = props.darkMode;
   return (
 
-    <div className='relative h-[600px] flex flex-col justify-center mb-10 items-center '>
-      <div className='text-white font-exco-sans flex flex-col justify-center items-center text-[40px] lg:text-[110px] h-[90%] duration-500 transition-all ease-in-out  hover:text-black'>
+    <div className='relative h-[750px] flex flex-col justify-center mb-10 items-center '>
+      <div className='group text-white font-exco-sans flex flex-col justify-center items-center text-[40px] lg:text-[60px] h-[90%] duration-500 transition-all ease-in-out  hover:text-black'>
 
 
-        <h1 className='bg-blue-800'>
-          <span className={`hover:text-gray-500 text-gray-700 bg-${darkMode === true ? "white" : "black"}`} >D</span>
-          <span className={`hover:text-gray-500 text-gray-700 bg-${darkMode === true ? "white" : "black"}`}>I</span>
-          <span className={`hover:text-gray-500 text-gray-700 bg-${darkMode === true ? "white" : "black"}`}>V </span>
-          <span className={`hover:text-gray-500 text-gray-700 bg-${darkMode === true ? "white" : "black"}`}>D</span>
-          <span className={`hover:text-gray-500 text-gray-700 bg-${darkMode === true ? "white" : "black"}`}>E</span>
-          <span className={`hover:text-gray-500 text-gray-700 bg-${darkMode === true ? "white" : "black"}`}>V</span>
-          <span className={`hover:text-gray-500 text-gray-700 bg-${darkMode === true ? "white" : "black"}`}>E</span>
-          <span className={`hover:text-gray-500 text-gray-700 bg-${darkMode === true ? "white" : "black"}`}>L</span>
-          <span className={`hover:text-gray-500 text-gray-700 bg-${darkMode === true ? "white" : "black"}`}>O</span>
-          <span className={`hover:text-gray-500 text-gray-700 bg-${darkMode === true ? "white" : "black"}`}>P</span>
-          <span className={`hover:text-gray-500 text-gray-700 bg-${darkMode === true ? "white" : "black"}`}>E</span>
-          <span className={`hover:text-gray-500 text-gray-700 bg-${darkMode === true ? "white" : "black"}`}>R</span>
-          <span className={`hover:text-gray-500 text-gray-700 bg-${darkMode === true ? "white" : "black"}`}>S</span>
+        <h1 className=' p-2  transition-all duration-300 group-hover:scale-105 group-hover:shadow-[0_0_10px_rgba(240,_46,_170,_0.4),5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1)] mb-5'>
+          <span className={`hover:text-gray-500 text-white  bg-${darkMode === true ? "blue-100" : "black"}`} >D</span>
+          <span className={`hover:text-gray-500 text-white  bg-${darkMode === true ? "blue-100" : "black"}`}>I</span>
+          <span className={`hover:text-gray-500 text-white  bg-${darkMode === true ? "blue-100" : "black"}`}>V </span>
+          <span className={`hover:text-gray-500 text-white  bg-${darkMode === true ? "blue-100" : "black"}`}>D</span>
+          <span className={`hover:text-gray-500 text-white bg-${darkMode === true ? "blue-100" : "black"}`}>E</span>
+          <span className={`hover:text-gray-500 text-white  bg-${darkMode === true ? "blue-100" : "black"}`}>V</span>
+          <span className={`hover:text-gray-500 text-white  bg-${darkMode === true ? "blue-100" : "black"}`}>E</span>
+          <span className={`hover:text-gray-500 text-white bg-${darkMode === true ? "blue-100" : "black"}`}>L</span>
+          <span className={`hover:text-gray-500 text-white  bg-${darkMode === true ? "blue-100" : "black"}`}>O</span>
+          <span className={`hover:text-gray-500 text-white  bg-${darkMode === true ? "blue-100" : "black"}`}>P</span>
+          <span className={`hover:text-gray-500 text-white  bg-${darkMode === true ? "blue-100" : "black"}`}>E</span>
+          <span className={`hover:text-gray-500 text-white  bg-${darkMode === true ? "blue-100" : "black"}`}>R</span>
+          <span className={`hover:text-gray-500 text-white  bg-${darkMode === true ? "blue-100" : "black"}`}>S</span>
         </h1>
 
 

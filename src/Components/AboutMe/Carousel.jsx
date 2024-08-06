@@ -1,51 +1,38 @@
-import React, { useState } from 'react'
-
-import { HiChevronLeft } from "react-icons/hi";
-import { HiChevronRight } from "react-icons/hi";
+import { useState } from 'react';
+import ReactSimplyCarousel from 'react-simply-carousel';
 
 
-const Carousel1 = (props) => {
-
-
-
-    const [index, setIndex] = useState(0);
-    const [data, setData] = useState(props.value[0].url);
-
-    const handleNext = () => {
-
-        if (index >= props.value.length) {
-            setData(props.value[0].url);
-            setIndex(0);
-        } else {
-            setIndex(index + 1);
-            setData(props.value[index].url);
-        }
-
-
-
-    }
-    const handleprev = () => {
-        if (index < 0) {
-            setData(props.value[props.value.length - 1].url);
-            setIndex(props.value.length - 1)
-        } else {
-            setIndex(index - 1);
-            setData(props.value[index].url);
-        }
-
-    }
+function ReactSimplyCarouselExample(props) {
+    const [activeSlideIndex, setActiveSlideIndex] = useState(0);
 
     return (
-        <div className="group bg-transparent  bg-opacity-50 backdrop-blur-lg relative flex flex-col justify-center grayscale hover:grayscale-0  items-center h-[430px] border-2 rounded-2xl border-gray-800 overflow-hidden">
-
-            <button className="absolute left-[1px] text-[40px] text-gray-500 z-10" onClick={handleprev}><HiChevronLeft /></button>
-            <div className='overflow-hidden rounded-md group-hover:scale-125 transition-all duration-500 ease-in-out '>
-                <img src={data} alt="" width={'400px'} />
-            </div>
-            <button onClick={handleNext} className="absolute right-[1px] text-[40px] text-gray-500"><HiChevronRight /></button>
-
+        <div className='bg-black bg-opacity-90 h-[450px] flex justify-center items-center backdrop-blur-lg p-5 border-2 rounded-2xl border-gray-800 '>
+            <ReactSimplyCarousel
+                activeSlideIndex={activeSlideIndex}
+                onRequestChange={setActiveSlideIndex}
+                
+                speed={400}
+                easing="linear"
+                autoplay={true}
+                delay={500}
+                centerMode={true}
+                preventScrollOnSwipe={false}
+            >
+               
+               {
+                props.value.map((ele,index)=>{
+                    return (
+                        <div className='bg-transparent w-80 flex items-center justify-center px-5 hover:scale-105 '>
+                               <img src={ele.url} alt="" />
+                        </div>
+                    )
+                })
+               }
+                   
+               
+            </ReactSimplyCarousel>
         </div>
-    )
+    );
 }
 
-export default Carousel1
+export default ReactSimplyCarouselExample;

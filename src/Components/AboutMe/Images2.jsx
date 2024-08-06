@@ -6,7 +6,7 @@ const Images2 = (props) => {
     const data = props.value;
     
     return (
-        <div className='  border-2 border-gray-800 mb-10 rounded-2xl  p-5 transition-all ease-in-out ' >
+        <div className=' bg-black bg-opacity-90 border-2 border-gray-800 mb-10 rounded-2xl  p-5 transition-all ease-in-out ' >
             <h1 className='text-2xl font-bold font-san1 mb-5'>{props.head}</h1>
             <div className='flex flex-wrap gap-2 '>
                 {

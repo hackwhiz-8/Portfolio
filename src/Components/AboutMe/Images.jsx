@@ -3,7 +3,7 @@ import React from 'react'
 const Images = (props) => {
     const data = props.value;
     return (
-        <div className='  border-2 border-gray-800 mb-10 rounded-2xl  p-5 transition-all ease-in-out ' >
+        <div className='    bg-black bg-opacity-90 backdrop-blur-lg  overflow-hidden shadow-lg border-2 rounded-2xl border-gray-800  p-5 transition-all ease-in-out ' >
             <h1 className='text-2xl font-bold font-san1 mb-5'>{props.head}</h1>
             <div className='flex flex-wrap gap-2 '>
                 {

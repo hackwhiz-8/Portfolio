@@ -1,12 +1,20 @@
 import React from 'react'
-import Carousel1 from '../AboutMe/Carousel'
+import { Link } from 'react-router-dom'
+import { FaArrowRight } from "react-icons/fa";
 
 
 const Project1 = (props) => {
   return (
-    <div className='flex flex-col gap-1'>
-      <h1 className='bg-transparent text-gray-500 py-5 bg-opacity-50 backdrop-blur-lg p-2 px-4 border-2 rounded-2xl border-gray-800 text-2xl font-bold '>{props.text}</h1>
-      <Carousel1 value={props.data}/>
+    <div className='flex flex-col gap-2'>
+
+
+      <div className={`${props.color} bg-opacity-90  flex flex-col gap-5 justify-center items-center  backdrop-blur-lg p-5 border-2 rounded-2xl border-gray-800 `}>
+        <div className='h-[300px] rounded-2xl overflow-hidden '>
+          <img src={props.image} alt="" className='rounded-2xl ' />
+        </div>
+        <h1 className={`text-[25px]  font-bold  `}>{props.text}</h1>
+        <Link to={props.link}><button className='bg-black flex  items-center gap-2 text-white  text-[20px] px-20 p-[10px] rounded-md hover:scale-95 transition-all ease-in-out duration-200'>Visit <FaArrowRight className='mt-[2px]' /></button></Link>
+      </div>
     </div>
   )
 }
