@@ -3,8 +3,9 @@ import './App.css';
 import Hompage from './Components/Homepage/Hompage';
 import Navbar from './Components/Navbar/Navbar';
 import { Route, Routes } from 'react-router-dom';
-import Footer from './Components/Footer/Footer';
+// import Footer from './Components/Footer/Footer';
 import ContactLink from './Components/Contact/ContactLink';
+import AboutMain from './Components/AboutMe/AboutMain';
 
 function App() {
   const [darkMode, setdarkMode] = useState(false);
@@ -25,9 +26,10 @@ function App() {
       <Routes>
         <Route path='/' element={<Hompage darkMode={darkMode} handleDarkMode={handleDarkMode}/>}/>
         <Route path='/contact' element={<ContactLink/>}/>
+        <Route path='/about' element={<AboutMain/>}/>
         
       </Routes>
-      <Footer/>
+      
 
     </div>
   );

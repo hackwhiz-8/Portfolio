@@ -4,7 +4,7 @@ import FrontPage from './FrontPage'
 import AboutMain from '../AboutMe/AboutMain'
 import ProjectMain from '../Projects/ProjectMain'
 import ContactMain from '../Contact/ContactMain'
-
+import Footer from '../Footer/Footer'
 import ServiceMain from '../Services/ServiceMain'
 
 
@@ -18,7 +18,7 @@ const Hompage = (props) => {
       <ProjectMain/>
       <AboutMain darkMode={dark}/>
       <ContactMain/>
-      
+      <Footer/>
      
     </div>
   )

@@ -59,7 +59,7 @@ const Navbar = (props) => {
 
         <ul className='flex gap-2 lg:opacity-100 opacity-0 mx-6 '>
           <Link to={'/'}><p className='hover:text-gray-300'>Home</p></Link>
-          <Link to={'/project'}><p className='hover:text-gray-300'>Services</p></Link>
+          {/* <Link to={'/project'}><p className='hover:text-gray-300'>Services</p></Link> */}
           <Link to={'/about'}><p className='hover:text-gray-300'>About Us</p></Link>
           <Link to={'/contact'}><p className='hover:text-gray-300'>Contact</p></Link>
         </ul>
