@@ -6,7 +6,8 @@ function ReactSimplyCarouselExample(props) {
     const [activeSlideIndex, setActiveSlideIndex] = useState(0);
 
     return (
-        <div className='bg-black bg-opacity-90 h-[450px] flex justify-center items-center backdrop-blur-lg p-5 border-2 rounded-2xl border-gray-800 '>
+        <div className='bg-black bg-opacity-90 h-[450px] flex justify-center items-center backdrop-blur-lg 
+        p-5 border-2 rounded-2xl border-blue-950 shadow-2xl shadow-blue-500/20 '>
             <ReactSimplyCarousel
                 activeSlideIndex={activeSlideIndex}
                 onRequestChange={setActiveSlideIndex}

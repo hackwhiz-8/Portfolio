@@ -11,16 +11,18 @@ import Images2 from './Images2'
 
 const About2 = (props) => {
     const dark = props.darkMode;
-    
+
     return (
 
 
-        <div className='text-gray-500  w-[450px]'>
-            <div className='mb-10  bg-black bg-opacity-70 backdrop-blur-lg  overflow-hidden shadow-lg border-2 rounded-2xl border-gray-800 text-2xl'>
+        <div className='text-gray-500  w-[450px] '>
+            <div className='mb-10  bg-black bg-opacity-70 backdrop-blur-lg  overflow-hidden  border-2
+             rounded-2xl border-blue-950 text-2xl shadow-2xl shadow-blue-500/20 '>
                 <img src={`${dark === true ? image2 : image}`} alt="" />
             </div>
 
-            <div className='bg-black bg-opacity-90 backdrop-blur-lg mb-10 overflow-hidden shadow-lg border-2 rounded-2xl border-gray-800 p-5 '>
+            <div className='bg-black bg-opacity-90 backdrop-blur-lg mb-10 overflow-hidden shadow-2xl shadow-blue-500/20 
+                              border-2 rounded-2xl border-blue-950 p-5 '>
                 <h1 className='text-2xl font-bold font-san1'>Awards </h1>
                 <div className='flex items-center gap-5'>
                     <div className='bg-blue-500 w-[7px] h-[40px] rounded-2xl'></div>
@@ -32,7 +34,7 @@ const About2 = (props) => {
                     </div>
                 </div>
             </div>
-            <Images2 value={socialData} head={"Profile"}/>
+            <Images2 value={socialData} head={"Profile"} />
             {/* <Spotify/> */}
         </div>
 

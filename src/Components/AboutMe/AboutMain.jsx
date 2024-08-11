@@ -5,9 +5,10 @@ import About3 from './About3'
 
 const AboutMain = (props) => {
     return (
-        <div className='mb-10 '>
-            <h1 className='text-gray-800  lg:text-[60px] text-[50px] border-b  text-center mb-10 border-gray-800'>About Me </h1>
-            <div className='grid lg:grid-cols-3 gap-5 w-[480px] px-5 
+       
+            <div className='mb-44  '>
+                <h1 className='text-gray-700  lg:text-[60px] text-[50px] border-b  text-center mb-20 border-blue-950'>About Me </h1>
+                <div className='grid lg:grid-cols-3 gap-5 w-[480px] px-5 
             lg:mx-auto 
             md:mx-auto 
             sm:mx-auto 
@@ -15,14 +16,15 @@ const AboutMain = (props) => {
             sm:w-[100%]
             md:w-[100%]'>
 
- 
-                <About />
-                <About2 darkMode={props.darkMode} />
-                <About3 />
+
+                    <About />
+                    <About2 darkMode={props.darkMode} />
+                    <About3 />
 
 
+                </div>
             </div>
-        </div>
+        
     )
 }
 

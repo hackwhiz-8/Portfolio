@@ -53,7 +53,7 @@ const ContactForm = () => {
         <div className="mt-15  ">
             <h1 className="text-gray-800 text-center text-[40px] mb-5">Get in touch</h1>
             <form
-                className="bg-black bg-opacity-90 flex flex-col gap-5 p-5 w-[80%] border-2 mx-auto  border-gray-800 text-gray-500 rounded-2xl "
+                className="bg-black bg-opacity-90 flex flex-col gap-5 p-5 w-[80%] border-2 mx-auto  border-blue-950 shadow-2xl shadow-blue-500/20  text-gray-500 rounded-2xl "
                 onSubmit={handleSubmit(submitContactForm)}
             >
 
@@ -109,7 +109,7 @@ const ContactForm = () => {
 
                     type="submit"
                     onClick={handleclick}
-                    className={`rounded-md bg-gradient-to-r from-emerald-500 to-emerald-900 px-6 py-3 text-center text-[13px] font-bold text-black shadow-[2px_2px_0px_0px_rgba(255,255,255,0.18)] 
+                    className={`border-blue-950 border-2 rounded-2xl px-6 py-3 text-center text-[13px] font-bold  bg-blue-900 text-white 
                           disabled:bg-richblack-500 sm:text-[16px] hover:scale-95 `}
                 >
                     Send Message

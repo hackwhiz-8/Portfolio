@@ -10,13 +10,16 @@ const About = () => {
 
 
         <div className='text-gray-500  w-[450px]'>
-            <div className=' hover:text-gray-400 mb-10  bg-black bg-opacity-90 backdrop-blur-lg p-5 border-2 rounded-2xl border-gray-800 text-2xl 
+            <div className=' hover:text-gray-400 mb-10  bg-black bg-opacity-90 backdrop-blur-lg p-5 border-2 rounded-2xl
+                          shadow-2xl shadow-blue-500/20  border-blue-950 text-2xl 
                '>
                 <p>Web Developer with 3 years of experience,
                     focused on creating functional and user-centered digital products with visually stunning designs.</p>
-                <a href={resume} download={resume}><button className='border-2 text-right flex items-center gap-2 border-gray-800 rounded-xl hover:scale-105 hover:border-green-600 transition-all ease-in-out duration-300 text-[18px] px-2 mt-5'>Resume <RxDownload /></button></a>
+                <a href={resume} download={resume}><button className='border-2 text-right flex items-center gap-2 border-blue-950 rounded-xl hover:scale-105
+                 hover:border-green-600 transition-all ease-in-out duration-300 text-[18px] px-2 mt-5'>Resume <RxDownload /></button></a>
             </div>
-            <div className='hover:text-gray-400  mb-10 bg-black  bg-opacity-90 backdrop-blur-lg p-5 px-5 border-2 rounded-2xl border-gray-800 text-[18px] '>
+            <div className='hover:text-gray-400  mb-10 bg-black  bg-opacity-90 backdrop-blur-lg p-5 px-5 border-2
+                                shadow-2xl shadow-blue-500/20  rounded-2xl border-blue-950 text-[18px] '>
                 <p>Growing up with a passion for both technology and the arts, I found my calling as a web developer,
                     where I blend creativity with technical skill. My journey is fueled by a love for dancing, traveling,
                     and connecting with people from all walks of life. Each new interaction and experience sharpens my keen

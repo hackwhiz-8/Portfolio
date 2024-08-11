@@ -13,11 +13,11 @@ const Navbar = (props) => {
   // };
 
   return (
-    <div className=' relative text-gray-500 flex justify-between items-center  bg-black bg-opacity-20 backdrop-blur-lg p-2 border-b-2 rounded-b-md border-gray-800 w-[100%]'>
-      <div className='mx-5 mt-2 text-[30px] text-red-500 font-bold'>D<span className='text-white text-[20px]'>Developers</span></div>
+    <div className=' relative text-gray-500 flex justify-between items-center  bg-black bg-opacity-20 backdrop-blur-lg p-2 border-b-2 rounded-b-md border-blue-950 w-[100%]'>
+      <Link to="/"><div className='mx-5 mt-2 text-[30px] text-blue-500 font-bold'>D<span className='text-white text-[20px]'>Developers</span></div></Link>
       <div className=' mt-2'>
 
-        <div className='text-gray-800 absolute  z-10 
+        <div className='text-blue-800 absolute  z-10 
             lg:right-[330px] 
             lg:top-5  
             md:right-[90px] 
@@ -26,7 +26,7 @@ const Navbar = (props) => {
             sm:top-5 
             right-[60px]
             top-[20px] 
-            border-2 border-gray-800 rounded-md p-[5px]' onClick={props.handleDarkMode}>
+            border-2 border-blue-950 rounded-md p-[5px]' onClick={props.handleDarkMode}>
           {props.darkMode === true ? <GiUbisoftSun /> : <FaMoon />}
         </div>
 
@@ -57,7 +57,7 @@ const Navbar = (props) => {
 
         </div> */}
 
-        <ul className='flex gap-2 lg:opacity-100 opacity-0 mx-6 '>
+        <ul className='flex gap-5 lg:opacity-100 opacity-0 mx-6 '>
           <Link to={'/'}><p className='hover:text-gray-300'>Home</p></Link>
           {/* <Link to={'/project'}><p className='hover:text-gray-300'>Services</p></Link> */}
           <Link to={'/about'}><p className='hover:text-gray-300'>About Us</p></Link>
